@@ -29,6 +29,7 @@ export class ListaCanciones implements IListaCanciones{
     // funcion para cambiar el nombre de la lista de canciones
     cambiarNombre(Cancion: ListaCanciones): ListaCanciones {
         this.nombre = Cancion.nombre;
+        console.log("Nombre cambiado a: ", Cancion.nombre);
         return Cancion;
     }
 

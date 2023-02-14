@@ -14,3 +14,9 @@ Esta funcion recibe una cancion y la agrega a la lista de canciones, devolviendo
 
 ## Funcion 5 eliminarCancion(Cancion: ICancion): void;
 Esta funcion recibe una cancion y la elimina de la lista de canciones.
+
+
+> Carlos Enrique Martinez 
+
+
+~~ Cristo no me ayudo..... ~~

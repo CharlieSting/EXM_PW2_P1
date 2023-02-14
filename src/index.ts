@@ -22,10 +22,10 @@ listaReproduccion.descargarCancion(cancion6);
 listaReproduccion.descargarCancion(cancion1);
 
 // cambiar nombre de la lista de reproduccion
-listaReproduccion.cambiarNombre(listaReproduccion);
+listaReproduccion.cambiarNombre(listaReproduccion,"Clasicos Rusos");
 
 // eliminar cancion de la lista de reproduccion
 listaReproduccion.eliminarCancion(cancion1);
-
+listaReproduccion.eliminarCancion(cancion2);
 
 console.log(listaReproduccion);
