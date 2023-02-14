@@ -2,7 +2,7 @@ import { Cancion } from "./Cancion";
 import { ListaCanciones } from "./ListaCanciones";
 
 
-// crear cancion
+// canciones
 const cancion1 = new Cancion(1, "Living on Video", "Trans-X", "Hace siglos", "Clasicos", 2, new Date(1999, 1, 1));
 const cancion2 = new Cancion(2, "Cheri Cheri Lady", "Modern Talking", "On My Own", "Clasicos", 3, new Date(1980, 1, 1));
 const cancion3 = new Cancion(6, "Eclipse", "$uicideboy$", "Eternal Grey", "Trap", 3, new Date(2016, 8, 21));
@@ -22,8 +22,10 @@ listaReproduccion.descargarCancion(cancion6);
 listaReproduccion.descargarCancion(cancion1);
 
 // cambiar nombre de la lista de reproduccion
-listaReproduccion.cambiarNombre(listaReproduccion,"Clasicos Rusos");
+listaReproduccion.cambiarNombre(listaReproduccion);
 
+//esta sirve
+listaReproduccion.cambiarNombre1("Clasicos Rusos");
 // eliminar cancion de la lista de reproduccion
 listaReproduccion.eliminarCancion(cancion1);
 listaReproduccion.eliminarCancion(cancion2);

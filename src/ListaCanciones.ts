@@ -5,7 +5,7 @@ import { IListaCanciones } from "./IListaCanciones";
 export class ListaCanciones implements IListaCanciones{
     agregarCancion(Cancion: ICancion): ICancion {
         this.canciones.push(Cancion);
-        console.log("Suscriptor creado", Cancion);
+        console.log("Cancion agregada", Cancion);
         return Cancion;
     }
     nombre: string | undefined;
@@ -33,10 +33,16 @@ export class ListaCanciones implements IListaCanciones{
         return Cancion;
     }
 
-    // funcion para agregar una cancion a la lista de canciones
-   // agregarCancion(Cancion: ICancion): ICancion {
-     //   this.canciones.push(Cancion);
-   // //}
+     
+     cambiarNombre1(Cancion: string): ListaCanciones {
+        this.nombre = Cancion;
+        console.log("Nombre cambiado a: ", Cancion);
+        return this;
+    }
+
+   
+
+    // funcion para eliminar una cancion de la lista de reproduccion
     eliminarCancion(Cancion: ICancion): void {
         this.canciones = this.canciones.filter(Cancion => Cancion.titulo !== Cancion.titulo);
         console.log("Cancion eliminada", Cancion);

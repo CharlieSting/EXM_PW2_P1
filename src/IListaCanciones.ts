@@ -10,4 +10,5 @@ import { ListaCanciones } from "./ListaCanciones";
     cambiarNombre(nombre: ListaCanciones): ListaCanciones;
     agregarCancion(Cancion: ICancion): ICancion;
     eliminarCancion(Cancion: ICancion): void;
+    cambiarNombre1(nombre: string): ListaCanciones;
 }
